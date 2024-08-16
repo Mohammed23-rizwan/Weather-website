@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Weather Website</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="left">
+        <div class="down">
+          <div class="main-heading">
+            <h2 class="degree" id="degree">08&deg;</h2>
+            <div class="sub-heading">
+              <h6 class="city" id="citys">Chennai</h6>
+              <div class="timedate">
+                <div class="time">
+                  <p id="time-display" class="only">16:00-Sunday,</p>
+                </div>
+                <div class="date">
+                  <p id="date-display" class="only">08-Oct-2024</p>
+                </div>
+              </div>
+            </div>
+            <div class="currentweather">
+              <p><ion-icon name="rainy"></ion-icon></p>
+              <p id="weathercondition">Rainy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right">
+        <div class="searchbar">
+          <input
+            type="search"
+            name=""
+            id="searchbar"
+            placeholder="Search a City"
+          /><ion-icon
+            class="searching"
+            onclick="output()"
+            name="search"
+          ></ion-icon>
+        </div>
+        <div class="weather-info">
+          <h2 class="weather">Weather Details</h2>
+          <div class="coluds-details">
+            <h6>Cloudy</h6>
+            <h6 id="cloudy">86<span>&#37;</span></h6>
+          </div>
+          <div class="coluds-details">
+            <h6>Humidity</h6>
+            <h6 id="humidity">86<span>&#37;</span></h6>
+          </div>
+          <div class="coluds-details">
+            <h6>Wind</h6>
+            <h6 id="wind">8<span> km/h</span></h6>
+          </div>
+          <div class="coluds-details">
+            <h6>Maxi-Temperature</h6>
+            <h6 id="maxi">8<span>f</span></h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./Js/script.js"></script>
+  <script
+    type="module"
+    src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"
+  ></script>
+  <script
+    nomodule
+    src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"
+  ></script>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"
+  />
+</html>
