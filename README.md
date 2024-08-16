@@ -2,7 +2,7 @@
 
 <b>notes : i developed only for desktop views </b>
 
-You want to check it our demo :<a href="#" class="button danger">Demo</a>
+You want to check it our demo : <a href="https://mohammed23-rizwan.github.io/Weather-website/" class="button danger">Demo</a>
 
 <img src="https://github.com/Mohammed23-rizwan/Weather-website/blob/main/Assets/Weather-showcase.JPG"/>
 
